@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Lesson 1</title>
+    <link rel="stylesheet" type="text/css" media="all" href="<?php echo get_stylesheet_uri(); ?>" />
 </head>
 <body>
-    <?php while ( have_posts() ) : the_post(); ?>
-      <?php the_content(); ?>
-    <?php endwhile; ?>
+    <h1>Introduction</h1>
+    <p>This course will teach you FoundationPress in great detail.</p>
 </body>
 </html>
 
