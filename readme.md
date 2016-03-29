@@ -22,3 +22,10 @@ technolgies, including:
 1. Add Some Styles
 1. get_head() and get_footer)
 
+## screenshot.png
+
+For the theme image to dispay it was nescessary to the following symbolic
+link in /usar/share/wordpress/wp-content/themes:
+
+* fplone -> /home/wp/WordpressDevelopment/fp-lesson-01/themes/fplone/
+
