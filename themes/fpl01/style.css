@@ -32,10 +32,10 @@ p {
   display: flex;
   align-items: center;
   padding: 0;
-  margin: 0 0 0 auto;
+  margin: 0 auto;
 }
 .menu a {
   color: #ffffff;
   text-decoration: none;
-  margin-right: 1rem;
+  margin: 0 0.5rem;
 }
