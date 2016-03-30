@@ -12,6 +12,7 @@ Text Domain: <TODO: What's This?>
 
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
+
 */
 h1 {
   color: blue;
@@ -20,14 +21,18 @@ h1 {
 p {
   font-style: italic;
 }
-.menu ul {
+.menu {
   background-color: #000000;
+  display: flex;
+}
+.menu ul {
   font-family: 'Oswald', sans-serif;
   font-size: 1rem;
   min-height: 2.75rem;
   display: flex;
   align-items: center;
-  padding: 0 1rem;
+  padding: 0;
+  margin: 0 0 0 auto;
 }
 .menu a {
   color: #ffffff;
