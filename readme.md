@@ -21,6 +21,7 @@ technolgies, including:
 1. Add Theme Screen Shot (screenshot.png)
 1. Themes settings
 1. Add Some Styles
+1. Add a menu
 1. get_head() and get_footer)
 
 ## screenshot.png
@@ -30,7 +31,7 @@ link in /usar/share/wordpress/wp-content/themes:
 
 * fplone -> /home/wp/WordpressDevelopment/fp-lesson-01/themes/fplone/
 
-## Add Ssome Styles
+## Add Some Styles
 
 * Add h1, p elements to index.php
 * Style these with stylesheet.css
@@ -38,3 +39,8 @@ link in /usar/share/wordpress/wp-content/themes:
 1. <?php bloginfo( 'stylesheet_url' ); ?>
   * Displays the primary CSS (usually style.css) file URL of the active theme. Consider echoing get_stylesheet_uri() instead.
   * <?php echo get_stylesheet_uri(); ?>
+
+## Add a Menu
+
+The code added in this step adds an unordered list for the menu.
+
