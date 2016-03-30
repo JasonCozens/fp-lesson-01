@@ -22,6 +22,8 @@ technolgies, including:
 1. Themes settings
 1. Add Some Styles
 1. Add a menu
+1. Add styles to menu items
+  1. Simple Left Aligned Menu
 1. get_head() and get_footer)
 
 ## screenshot.png
