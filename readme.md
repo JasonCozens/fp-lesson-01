@@ -48,3 +48,13 @@ link in /usar/share/wordpress/wp-content/themes:
 
 The code added in this step adds an unordered list for the menu.
 
+## CSS
+
+How can the standard wordpress menu be styled so that it can have three regions:
+
+* Left
+* Center
+* Right
+
+These need to be configuarbale in the WordPress Theme Editor. 
+
