@@ -58,3 +58,12 @@ How can the standard wordpress menu be styled so that it can have three regions:
 
 These need to be configuarbale in the WordPress Theme Editor. 
 
+
+In CSS3 it is not possible to use position selectors with classes, so:
+
+```css
+.right:last-child { . . . }
+```
+
+does not work. Using classes in these selectors is coming in CSS4.
+
