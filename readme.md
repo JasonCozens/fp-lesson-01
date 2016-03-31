@@ -31,7 +31,7 @@ technolgies, including:
 ## screenshot.png
 
 For the theme image to dispay it was nescessary to the following symbolic
-link in /usar/share/wordpress/wp-content/themes:
+link in /usr/share/wordpress/wp-content/themes:
 
 * fplone -> /home/wp/WordpressDevelopment/fp-lesson-01/themes/fplone/
 
@@ -48,3 +48,17 @@ link in /usar/share/wordpress/wp-content/themes:
 
 The code added in this step adds an unordered list for the menu.
 
+### Menu Class Names
+
+When adding a menu the class names for the menu are generated from this name.
+
+* Menu name: <name>
+* Outer class
+  * menu-<name>-container
+* ul element
+  * #menu-<name>
+  * .menu
+* li element
+  * #menu-item-X
+  * .menu-item
+ 
