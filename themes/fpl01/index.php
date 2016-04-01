@@ -9,6 +9,7 @@
     <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
     <h1>Introduction</h1>
     <p>This course will teach you FoundationPress in great detail.</p>
+    <?php wp_nav_menu( array( 'theme_location' => 'footer-menu' ) ); ?>
 </body>
 </html>
 
