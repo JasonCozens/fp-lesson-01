@@ -7,8 +7,10 @@
 </head>
 <body>
     <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
-    <h1>Introduction</h1>
-    <p>This course will teach you FoundationPress in great detail.</p>
+    <div class="content-row">
+        <h1>Introduction</h1>
+        <p>This course will teach you FoundationPress in great detail.</p>
+    </div>
     <?php wp_nav_menu( array( 'theme_location' => 'footer-menu' ) ); ?>
 </body>
 </html>
