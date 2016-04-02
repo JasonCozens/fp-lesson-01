@@ -25,6 +25,10 @@ Use it to make something cool, have fun, and share what you've learned with othe
   height: 3rem;
   margin: 0.5rem 0;
 }
+#searchform {
+  text-align: right;
+}
+.hilite { background:#D3E18A; }
 h1 {
   font-size: 2rem;
   text-align: center;
@@ -35,6 +39,7 @@ p {
   text-align: center;
   font-style: italic;
   line-height: 125%;
+  margin: 0.5rem 0;
 }
 .menu {
   background-color: #000000;
