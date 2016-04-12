@@ -7,5 +7,10 @@
 </head>
 <body>
   <h1>FoundationPress Express</h1>
+    <?php if ( have_posts() ) : ?>
+        <?php while ( have_posts() ) : the_post(); ?>
+            ... Display post content
+        <?php endwhile; ?>
+    <?php endif; ?>
 </body>
 </html>
